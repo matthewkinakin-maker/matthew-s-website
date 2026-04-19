@@ -73,6 +73,4 @@ $$E = mc^2$$
 
 ## 標籤
 
-{{< tags >}}
 
-{{< recent-posts >}}
