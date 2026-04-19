@@ -1,78 +1,103 @@
 <head>
-	<!--Meta-->
+	<!-- Meta -->
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<!--title-->
-	{{$page_title := ""}}
+
+	<!-- Title -->
+	{{$title := site.Title}}
 	{{if not .IsHome}}
-		{{$page_title =  delimit (slice "|" .Title) " "}}
+		{{$title = printf "%s | %s" site.Title .Title}}
 	{{end}}
-	{{$title := delimit (slice site.Title $page_title) " "}}
 	<title>{{$title}}</title>
-	<!--description-->
+
+	<!-- Description -->
 	{{$desc := ""}}
 	{{if .IsHome}}
-		<!--desc - home-->
 		{{$desc = site.Params.description}}
 	{{else}}
-		<!--desc - else-->
 		{{if .Description}}
 			{{$desc = .Description}}
 		{{else}}
-			{{$desc = delimit (slice site.Title "-" .Section "-" .Title) " "}}
+			{{$desc = printf "%s - %s - %s" site.Title .Section .Title}}
 		{{end}}
 	{{end}}
 	<meta name="description" content="{{$desc}}"/>
-	<!--author-->
-	{{with .Params.author}}<meta name="author" content="{{.}}">{{end}}
-	<!--canonical url-->
-	{{if site.Params.enableUserCanonical}}<link rel="canonical" href="{{absURL .Permalink}}"/>{{end}}
 
-	<!--rss, etc.-->
+	<!-- Author -->
+	{{with .Params.author}}
+		<meta name="author" content="{{.}}">
+	{{end}}
+
+	<!-- Canonical URL -->
+	{{if site.Params.enableUserCanonical}}
+		<link rel="canonical" href="{{ .Permalink }}"/>
+	{{end}}
+
+	<!-- RSS / Alternative outputs -->
 	{{range .AlternativeOutputFormats}}
 		{{printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML}}
 	{{end}}
 
-	<!--favicon-->
-	{{with site.Params.favicon}}<link rel="icon" href="{{.}}">{{end}}
+	<!-- Favicon -->
+	{{with site.Params.favicon}}
+		<link rel="icon" href="{{.}}">
+	{{end}}
 
-	<!--css - SK3-->
-	<link rel="stylesheet" href="{{relLangURL ""}}css/sk3.css">
-	<!--css - site.Params-->
+	<!-- CSS - SK3 -->
+	<link rel="stylesheet" href="{{ "css/sk3.css" | relLangURL }}">
+
+	<!-- CSS - Site Params -->
 	<style>
 		{{with site.Params.card.width}}
-		@media only screen and (min-width: 993px){:root{--width-card: {{.}};}}
+		@media only screen and (min-width: 993px) {
+			:root { --width-card: {{.}}; }
+		}
 		{{end}}
+
 		{{with site.Params.pagewidth}}
-		@media only screen and (min-width: 993px){:root{--width-html: {{.}};}}
+		@media only screen and (min-width: 993px) {
+			:root { --width-html: {{.}}; }
+		}
 		{{end}}
-		{{with site.Params.color.bg}}:root{--color-bg:{{.}};}{{end}}
-		{{with site.Params.color.border}}:root{--color-border:{{.}};}{{end}}
-		{{with site.Params.color.link}}:root{--color-link:{{.}};}{{end}}
-		{{with site.Params.color.text}}:root{--color-txt:{{.}};}{{end}}
+
+		{{with site.Params.color.bg}}
+		:root { --color-bg: {{.}}; }
+		{{end}}
+
+		{{with site.Params.color.border}}
+		:root { --color-border: {{.}}; }
+		{{end}}
+
+		{{with site.Params.color.link}}
+		:root { --color-link: {{.}}; }
+		{{end}}
+
+		{{with site.Params.color.text}}
+		:root { --color-txt: {{.}}; }
+		{{end}}
+
 		{{if .IsHome}}
-		/*
-			H1 size:
-			In single/index page, H1 is smaller than H2
-			In Home page, where there is no page title, H1 same size as H2
-		*/
 		:root{
 			--h1-ln-h-using: var(--h2-ln-h);
 			--h1-size-using: var(--h2-size);
 		}
 		{{end}}
 	</style>
-	<!--css - custom-->
+
+	<!-- Custom CSS -->
 	{{range site.Params.customCss}}
-	<link rel="stylesheet" href="{{.|relURL}}">
+		<link rel="stylesheet" href="{{ . | relURL }}">
 	{{end}}
-	<!--script - SK3-->
+
+	<!-- Scripts -->
 	{{if or site.Menus.main site.Params.socialshare (default true .Params.toc)}}
 	<script>
-		enableOpenToc=false
-		{{with site.Params.enableOpenToc}}enableOpenToc={{.}}{{end}}
+		let enableOpenToc = false;
+		{{with site.Params.enableOpenToc}}enableOpenToc = {{.}};{{end}}
 	</script>
-	
+	{{end}}
+
+	<!-- Debug (optional) -->
 	<script>
 		/*
 		console.log("Kind:{{.Kind}}")
@@ -82,10 +107,11 @@
 		console.log("title:{{$title}}")
 		*/
 	</script>
-	<!--svg-->
+
+	<!-- Icons -->
 	{{if site.Params.enableExternalSvg}}
-	<link href="//use.fontawesome.com/releases/v5.13.1/css/all.css" rel="stylesheet">
+		<link href="//use.fontawesome.com/releases/v5.13.1/css/all.css" rel="stylesheet">
 	{{else}}
-	{{partial "sk3-fa.svg" .}}
+		{{partial "sk3-fa.svg" .}}
 	{{end}}
 </head>
