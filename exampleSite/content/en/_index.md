@@ -8,4 +8,3 @@ draft = false
 
 A minimal, multilingual Hugo theme — **defaults to NES/FC retro pixel style**. Click the gamepad icon in the header to switch between Retro, Light, and Dark modes.
 
-{{< recent-posts >}}
