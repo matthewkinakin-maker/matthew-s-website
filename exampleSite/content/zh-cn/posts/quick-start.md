@@ -73,6 +73,3 @@ $$S = \pi r^2$$
 
 ## 标签
 
-{{< tags >}}
-
-{{< recent-posts >}}
