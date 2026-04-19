@@ -72,19 +72,7 @@
 		enableOpenToc=false
 		{{with site.Params.enableOpenToc}}enableOpenToc={{.}}{{end}}
 	</script>
-	<script defer src="{{relLangURL ""}}js/sk3.js"></script>
-	{{end}}
-	<!--script - iubenda-->
-	{{partial "iubenda.html"}}
-	<!--script - Google Analytics-->
-	{{partial "google_analytics.html" .}}
-	<!--script - Google AdSense-->
-	{{partial "adsense.html" .}}
-	<!--script - custom-->
-	{{range site.Params.customJs}}
-	<script src="{{.|relURL}}"></script>
-	{{end}}
-	<!--script - Hugo-->
+	
 	<script>
 		/*
 		console.log("Kind:{{.Kind}}")
