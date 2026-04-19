@@ -8,7 +8,6 @@ translationKey = 'quick-start'
 
 This post walks through what **hugo-trainsh** can render — headings, code, tables, diagrams, math, images, and more.
 
-{{< toc >}}
 
 ## Three Theme Modes
 
