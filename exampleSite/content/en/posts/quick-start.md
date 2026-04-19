@@ -72,6 +72,3 @@ Click to open the lightbox:
 
 ## Tags
 
-{{< tags >}}
-
-{{< recent-posts >}}
