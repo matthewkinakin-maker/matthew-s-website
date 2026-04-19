@@ -8,7 +8,6 @@ translationKey = 'quick-start'
 
 この記事では **hugo-trainsh** の描画機能を紹介します——見出し、コード、テーブル、図、数式、画像など。
 
-{{< toc >}}
 
 ## 3つのテーマモード
 
