@@ -8,8 +8,6 @@ translationKey = 'quick-start'
 
 這篇文章展示 **hugo-trainsh** 的主要渲染能力——標題、程式碼、表格、圖表、公式、圖片等。
 
-{{< toc >}}
-
 ## 三種主題模式
 
 點擊頁首的切換按鈕依次切換：
