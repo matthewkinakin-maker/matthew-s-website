@@ -1,7 +1,3 @@
-# netlify.toml
 [build]
-  command = "hugo"
-  publish = "public"
-
-[build.environment]
-  HUGO_VERSION = "0.120.0"
+  command = "hugo -s exampleSite"
+  publish = "exampleSite/public"
