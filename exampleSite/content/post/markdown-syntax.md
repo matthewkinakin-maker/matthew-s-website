@@ -98,7 +98,7 @@ Tables aren't part of the core Markdown spec, but Hugo supports them out-of-the-
     </html>
 
 #### Code block with Hugo's internal highlight shortcode
-{{< highlight html >}}
+
 <!doctype html>
 <html lang="en">
 <head>
@@ -109,7 +109,7 @@ Tables aren't part of the core Markdown spec, but Hugo supports them out-of-the-
   <p>Test</p>
 </body>
 </html>
-{{< /highlight >}}
+
 
 ## List Types
 
