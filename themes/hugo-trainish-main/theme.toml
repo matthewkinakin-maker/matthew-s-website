@@ -4,7 +4,7 @@ licenselink = "https://github.com/binbinsh/hugo-trainsh/blob/main/LICENSE"
 description = "A minimal, multilingual Hugo blog theme with a default NES/FC retro pixel mode — 8-bit dialog borders, RPG-style UI, pixel fonts — plus clean Light and Dark alternatives."
 
 # The home page of the theme, where the source can be found.
-homepage = "https://github.com/binbinsh/hugo-trainsh"
+homepage = "https://github.com/binbinsh/hugo-trainsh-main"
 
 # If you have a running demo of the theme.
 demosite = "https://hugo-trainsh.pages.dev"
