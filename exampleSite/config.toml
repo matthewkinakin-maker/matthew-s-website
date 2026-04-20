@@ -1,5 +1,0 @@
-baseURL = "https://matthewkinakin.com/"
-languageCode = "en"
-title = "My Site"
-
-theme = "hugo-trainish-main"
