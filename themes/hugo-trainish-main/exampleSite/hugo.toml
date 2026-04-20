@@ -1,5 +1,5 @@
-baseURL = "https://example.org/"
-title = "My New Hugo Site"
+baseURL = "https://matthewkinakin.com/"
+title = "Matthew Kinakin"
 
 theme = "hugo-trainish-main"
 
