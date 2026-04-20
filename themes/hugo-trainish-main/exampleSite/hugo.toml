@@ -1,7 +1,7 @@
 baseURL = "https://example.org/"
 title = "My New Hugo Site"
 
-theme = "hugo-trainsh"
+theme = "hugo-trainish-main"
 
 defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = false
