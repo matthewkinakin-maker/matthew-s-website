@@ -1,4 +1,4 @@
-name = "hugo-trainsh"
+name = "hugo-trainsh-main"
 license = "MIT"
 licenselink = "https://github.com/binbinsh/hugo-trainsh/blob/main/LICENSE"
 description = "A minimal, multilingual Hugo blog theme with a default NES/FC retro pixel mode — 8-bit dialog borders, RPG-style UI, pixel fonts — plus clean Light and Dark alternatives."
