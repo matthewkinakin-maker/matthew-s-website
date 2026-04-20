@@ -6,17 +6,17 @@ theme = "hugo-trainish-main"
 defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = false
 
-[languages]
-  [languages.en]
-    languageCode = "en-US"
-    languageName = "English"
-    weight = 1
-    title = "My New Hugo Site"
-    contentDir = "content/en"
-   [[languages.en.menu.main]]
-name = "Download my CV"
-url = "/cv.pdf"
+[languages.en]
+languageCode = "en-US"
+languageName = "English"
 weight = 1
+title = "Matthew Kinakin"
+contentDir = "content/en"
+
+  [[languages.en.menu.main]]
+  name = "Download my CV"
+  url = "/cv.pdf"
+  weight = 1
 
   [languages.zh-cn]
     languageCode = "zh-CN"
