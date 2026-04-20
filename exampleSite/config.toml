@@ -2,4 +2,4 @@ baseURL = "https://matthewkinakin.com/"
 languageCode = "en"
 title = "My Site"
 
-theme = "hugo-theme-sk3"
+theme = "hugo-trainish-main"
