@@ -1,3 +1,0 @@
-baseURL = "https://your-site.netlify.app/"
-title = "My Site"
-theme = "hugo-trainsh"
