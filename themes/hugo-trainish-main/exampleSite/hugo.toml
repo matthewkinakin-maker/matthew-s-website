@@ -6,6 +6,11 @@ theme = "hugo-trainish-main"
 defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = false
 
+[[menu.main]]
+name = "Download my CV"
+url = "/cv.pdf"
+weight = 1
+
 [languages.en]
 languageCode = "en-US"
 languageName = "English"
