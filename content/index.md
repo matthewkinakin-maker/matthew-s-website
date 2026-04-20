@@ -2,4 +2,4 @@
 title: "Home"
 ---
 
-hello
+hello, kittens and cats
