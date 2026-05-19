@@ -15,7 +15,7 @@ My email is mkinakin[at]ed.ac.uk.
 
 ## CV
 
-[Curriculum Vitae (PDF)](/cv.pdf)
+[Curriculum Vitae (PDF)](/CV.pdf)
 
 ## Papers
 
