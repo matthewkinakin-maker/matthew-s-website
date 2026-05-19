@@ -14,8 +14,10 @@ In metaethics, I think about moral epistemology, in particular how plausible it 
 My email is mkinakin [at] ed [dot] ac [dot] uk.
 
 ## Papers
-2026 “[Why intentionalists can’t take painkillers](https://philpapers.org/rec/KINWIC-3).” *Philosophical Studies.* 183, 1905–1929.
-2026 “[Why representationalists can’t be desire theorists (and vice versa)](https://philpapers.org/rec/KINWRC).” *Synthese.* 207, 208.
+
+II. 2026 “[Why intentionalists can’t take painkillers](https://philpapers.org/rec/KINWIC-3).” *Philosophical Studies.* 183, 1905–1929.
+
+I. 2026 “[Why representationalists can’t be desire theorists (and vice versa)](https://philpapers.org/rec/KINWRC).” *Synthese.* 207, 208.
 
 
 
