@@ -13,6 +13,10 @@ In metaethics, I think about moral epistemology, in particular how plausible it 
 
 My email is mkinakin[at]ed.ac.uk.
 
+## CV
+
+[Curriculum Vitae (PDF)](/cv.pdf)
+
 ## Papers
 
 [2] 2026. “Why intentionalists can’t take painkillers.” *Philosophical Studies.* 183, 1905–1929.
