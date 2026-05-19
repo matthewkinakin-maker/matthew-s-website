@@ -15,7 +15,9 @@ My email is mkinakin[at]ed[dot]ac[dot]uk.
 
 ## Papers
 
-[2] 2026. “Why intentionalists can’t take painkillers.” *Philosophical Studies.* 183, 1905–1929.
+[2] 2026. “[Why intentionalists can’t take painkillers](https://philpapers.org/rec/KINWIC-3).” *Philosophical Studies.* 183, 1905–1929.
 
-[1] 2026. “Why representationalists can’t be desire theorists (and vice versa).” *Synthese.* 207 (5): 208.
+[1] 2026. <p style="white-space: nowrap;">
+[1] 2026. “[Why representationalists can’t be desire theorists (and vice versa)](https://philpapers.org/rec/KINWRC).” <em>Synthese.</em> 207 (5): 208. 
+</p>
 
