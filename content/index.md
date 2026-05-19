@@ -1,5 +1,5 @@
 ---
-title: "Home"
+title: "CV"
 ---
 ## About Me
 
@@ -9,7 +9,7 @@ In philosophy of mind, I think about the nature of affective phenomenology. I ha
 
 In value theory, I have published on the nature of desire-based accounts of affect, its value, and its motivationality, arguing that (i) desire theorists can’t be intentionalists and (ii) desire theories are most plausible when they wield a very specific sort of desire, i.e. an experientially-frustrated (or satisfied) de re desire.
 
-In metaethics, I think about moral epistemology, in particular how plausible it is that introspection is a form of moral knowledge.
+In metaethics, I think about moral epistemology, in particular how plausible it is that introspection can give rise to moral knowledge.
 
 My email is mkinakin[at]ed.ac.uk.
 
@@ -18,4 +18,4 @@ My email is mkinakin[at]ed.ac.uk.
 [2] 2026. “Why intentionalists can’t take painkillers.” *Philosophical Studies.* 183, 1905–1929.
 
 [1] 2026. “Why representationalists can’t be desire theorists (and vice versa).” *Synthese.* 207 (5): 208.
-Matthew Kinakin
+
