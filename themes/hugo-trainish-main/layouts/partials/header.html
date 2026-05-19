@@ -1,6 +1,6 @@
 <div class="site-header">
-  {{- $tagsPage := .Site.GetPage "/tags" -}}
-  {{- $tagsLabel := i18n "tags" -}}
+ {{- $cvLabel := "CV" -}}
+{{- $cvURL := "/CV.pdf" -}}
   {{- if hasPrefix .Site.Language.Lang "zh" -}}
     {{- $tagsLabel = i18n "tag_archive" -}}
   {{- end -}}
@@ -65,7 +65,7 @@
     <a href="{{ .RelPermalink }}">{{ i18n "blog" }}</a>
     {{ end }}
     {{ with $tagsPage }}
-    <a href="{{ .RelPermalink }}">{{ $tagsLabel }}</a>
+    <a href="{{ $cvURL }}">{{ $cvLabel }}</a>
     {{ end }}
     {{ end }}
     {{- end -}}
