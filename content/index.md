@@ -1,5 +1,21 @@
 ---
 title: "Home"
 ---
+## About Me
 
+I’m a Teaching Fellow at the University of Edinburgh. I work primarily at the intersection of philosophy of mind and ethics (especially value theory and meta-ethics), thinking mainly about the relationship between affect, motivation, value, and evaluative knowledge.
+
+In philosophy of mind, I think about the nature of affective phenomenology. I have published on intentionalism about phenomenal character and its incompatibility with certain motivational, normative, and epistemic features of affect. I also think about the nature of self-knowledge, in particular the self-knowledge of motivating reasons, and transparency accounts of self-knowledge, more generally.
+
+In value theory, I have published on the nature of desire-based accounts of affect, its value, and its motivationality, arguing that (i) desire theorists can’t be intentionalists and (ii) desire theories are most plausible when they wield a very specific sort of desire, i.e. an experientially-frustrated (or satisfied) de re desire.
+
+In metaethics, I think about moral epistemology, in particular how plausible it is that introspection is a form of moral knowledge.
+
+My email is mkinakin[at]ed.ac.uk.
+
+## Papers
+
+[2] 2026. “Why intentionalists can’t take painkillers.” *Philosophical Studies.* 183, 1905–1929.
+
+[1] 2026. “Why representationalists can’t be desire theorists (and vice versa).” *Synthese.* 207 (5): 208.
 Matthew Kinakin
