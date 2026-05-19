@@ -11,11 +11,8 @@ In value theory, I have published on the nature of desire-based accounts of affe
 
 In metaethics, I think about moral epistemology, in particular how plausible it is that introspection can give rise to moral knowledge. 
 
-My email is mkinakin[at]ed.ac.uk.
+My email is mkinakin[at]ed[dot]ac[dot]uk.
 
-## CV
-
-[Curriculum Vitae (PDF)](/CV.pdf)
 
 ## Papers
 
