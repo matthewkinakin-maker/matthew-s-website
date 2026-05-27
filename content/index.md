@@ -5,7 +5,7 @@ title: "Home"
 
 <div>
 <img 
-  src="/images/profile.jpg" 
+  src="static/images/profile.jpg" 
   alt="Profile photo"
   width="220"
   style="border-radius:12px;"
