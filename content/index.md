@@ -9,15 +9,18 @@ My email is mkinakin [at] ed [dot] ac [dot] uk
 
 ## Papers
 
-- [2] 2026 “[Why intentionalists can’t take painkillers](https://philpapers.org/rec/KINWIC-3).” *Philosophical Studies.* 183, 1905–1929.
+[2] 2026. “[Why intentionalists can’t take painkillers](https://philpapers.org/rec/KINWIC-3).” *Philosophical Studies.* 183, 1905–1929.
 
-- [1] 2026 “[Why representationalists can’t be desire theorists (and vice versa)](https://philpapers.org/rec/KINWRC).” *Synthese.* 207, 208.
+[1] 2026. “[Why representationalists can’t be desire theorists (and vice versa)](https://philpapers.org/rec/KINWRC).” *Synthese.* 207, 208.
 
 ## Works in Progress
 
 A paper on introspection and moral/evaluative knowledge (under review).
+
 A paper on evaluativism and the messenger shooting objection (under review). 
+
 A paper on self-knowledge of motivating reasons (draft).
+
 A paper on intentionalism, affect, and first-order desire views (draft). 
 
 
