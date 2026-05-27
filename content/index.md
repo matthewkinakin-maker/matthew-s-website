@@ -1,12 +1,6 @@
 ---
 title: "Home"
 ---
-<img 
-  src="/images/profile.jpg" 
-  alt="Profile photo"
-  width="220"
-  style="border-radius: 12px; margin-bottom: 20px;"
->
 
 ## About Me
 
