@@ -1,18 +1,12 @@
 ---
 title: "Home"
 ---
-<div style="display:flex; gap:30px; align-items:flex-start; flex-wrap:wrap;">
-
-<div>
 <img 
   src="static/images/profile.jpg" 
   alt="Profile photo"
   width="220"
-  style="border-radius:12px;"
+  style="border-radius: 12px; margin-bottom: 20px;"
 >
-</div>
-
-<div style="flex:1; min-width:300px;">
 
 ## About Me
 
