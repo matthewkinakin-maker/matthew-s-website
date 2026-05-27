@@ -1,7 +1,7 @@
 ---
 title: "Home"
 ---
-<img src="/profile.jpg" width="220">
+![](/profile.jpg)
 ## About Me
 
 I’m a Teaching Fellow at the University of Edinburgh. I work primarily at the intersection of philosophy of mind and ethics (especially value theory and meta-ethics). In particular, my research focuses mainly on the relationship between affect, motivation, value, and evaluative knowledge. 
