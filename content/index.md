@@ -16,7 +16,7 @@ My email is mkinakin [at] ed [dot] ac [dot] uk
 
 ## Works in Progress
 
-A paper on introspection and moral/evaluative knowledge (under review).
+A paper on introspection and moral/evaluative knowledge (R&R).
 
 A paper on evaluativism and the messenger shooting objection (under review). 
 
